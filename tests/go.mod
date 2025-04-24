@@ -14,5 +14,5 @@ require (
 	github.com/mattn/go-zglob v0.0.3 // indirect
 	github.com/stretchr/testify v1.8.0
 	github.com/tmccombs/hcl2json v0.3.4 // indirect
-	golang.org/x/crypto v0.0.0-20220722155217-630584e8d5aa // indirect
+	golang.org/x/crypto v0.17.0 // indirect
 )
