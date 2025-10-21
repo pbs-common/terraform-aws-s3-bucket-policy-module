@@ -7,7 +7,7 @@
 Use this URL for the source of the module. See the usage examples below for more details.
 
 ```hcl
-github.com/pbs/terraform-aws-s3-bucket-policy-module?ref=1.0.24
+github.com/pbs-common/terraform-aws-s3-bucket-policy-module?ref=1.0.24
 ```
 
 ### Alternative Installation Methods
@@ -30,7 +30,7 @@ Integrate this module like so:
 
 ```hcl
 module "s3_bucket_policy" {
-  source = "github.com/pbs/terraform-aws-s3-bucket-policy-module?ref=1.0.24"
+  source = "github.com/pbs-common/terraform-aws-s3-bucket-policy-module?ref=1.0.24"
 
   # Tagging Parameters
   product      = var.product

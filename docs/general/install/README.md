@@ -12,7 +12,7 @@ Assuming you don't have manual modifications that you need to make to serve the 
 
 ```hcl
 module "s3-bucket-policy" {
-    source = "github.com/pbs/terraform-s3-bucket-policy-module?ref=x.y.z"
+    source = "github.com/pbs-common/terraform-s3-bucket-policy-module?ref=x.y.z"
 }
 ```
 
